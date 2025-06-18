@@ -1,0 +1,79 @@
+h1,h2
+{
+  color: rgb(128, 0, 70);
+  font-family:Arial;  
+}
+
+article
+{
+background-color:pink;
+width: 500px;
+height: 500px;
+color: blue;
+font-family: Arial;
+}
+
+
+.blur
+{
+    backdrop-filter: blur(5px);
+    background-color:pink;
+}
+
+html
+{
+    background-color:pink;
+}
+
+div p
+{
+    color:blue;
+}
+
+a:hover
+{
+    color:black;
+}
+
+input[type="text"]
+{
+    border:1px solid purple;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    background-color: rgb(255, 223, 227);
+}
+
+.item
+{
+    flex:1;
+    align-self:center;
+    background-color: purple;
+    color:white;
+}
+
+.container2
+{
+    display:grid;
+    grid-template-columns: repeat (3,1fr);
+    gap: 5px;
+    padding:5px;
+    background-color: lightpink;
+
+}
+
+.item2
+{
+    background-color: white;
+    color:black;
+    padding:10px;
+    text-align:center;
+    font-size:10px;
+  
+}
