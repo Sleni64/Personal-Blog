@@ -15,17 +15,7 @@ color: rgb(0, 0, 0);
 font-family: Arial;
 }
 
-
-.blur
-{
-    backdrop-filter: blur(5px);
-    background-color:rgb(255, 83, 112);
-    float:left;
-    padding:40px;
-    
-}
-
-html
+body
 {
     background-color:pink;
 }
