@@ -45,23 +45,14 @@ input[type="text"]
     border:1px solid rgb(255, 255, 255);
 }
 
-.container2
+main
 {
-    display:grid;
-    grid-template-columns:repeat(3,1fr);
+    display:flex;
+    flex-direction: column;
     gap: 5px;
     padding:5px;
     background-color: lightpink;
 
 }
 
-.item2
-{
-    background-color: white;
-    color:black;
-    padding:10px;
-    text-align:center;
-    font-size:10px;
-  
-}
 
