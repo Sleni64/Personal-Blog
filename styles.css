@@ -4,6 +4,8 @@ h1,h2
   font-family:Arial;  
 }
 
+h1 { color:purple; } 
+
 article
 {
 background-color:pink;
@@ -41,24 +43,6 @@ a:hover
 input[type="text"]
 {
     border:1px solid rgb(255, 255, 255);
-}
-
-
-.container{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    height: 200px;
-    background-color: rgb(0, 0, 0);
-}
-
-.item
-{
-    flex:1;
-    align-self:center;
-    background-color: purple;
-    color:white;
 }
 
 .container2
