@@ -50,3 +50,9 @@ p
 {
 text-align: center;
 }
+
+nav
+{
+ display: flex;
+  justify-content: flex-end; /* pushes links to the right */
+}

@@ -81,7 +81,7 @@
         </ul>
 
         <!-- Navigation Links -->
-        <nav>
+        <div class="nav"> 
             <a href="https://www.youtube.com/@sarabellah" alt="link">Like and Subscribe!</a>
             <br> <a href="https://www.instagram.com/mythingisfilm/" alt="link">Follow My Film Insta! </a>
             <br> <a href="https://www.instagram.com/sarabellah_leni/" alt="link"> Follow My Personal Insta!</a>
@@ -89,33 +89,7 @@
     </main>
 
 
-     <div id="output"></div>
 
-  <script>
-    // Select the form and output area
-    const form = document.getElementById('myForm');
-    const input = document.getElementById('userInput');
-    const output = document.getElementById('output');
-
-    // Listen for when the form is submitted
-    form.addEventListener('submit', function(event) {
-      event.preventDefault(); // Prevent the page from reloading
-
-      // Get the text from the input field
-      const userText = input.value;
-
-      // Create a new paragraph element
-      const newParagraph = document.createElement('p');
-      newParagraph.textContent = userText;
-
-      // Add the new paragraph to the output area
-      output.appendChild(newParagraph);
-
-      // Clear the input field
-      input.value = '';
-    });
-  </script> 
-  
 </body>
 
 </html>
