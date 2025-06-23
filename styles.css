@@ -41,10 +41,9 @@ main
 }
 
 
-figure
-{
-    display: flex;
-    flex-direction: row;
+.image-row {
+  display: flex;
+  gap: 10px; /* space between images */
 }
 
 p
