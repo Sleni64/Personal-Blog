@@ -46,3 +46,13 @@ main
 }
 
 
+figure
+{
+    display: flex;
+    flex-direction: row;
+}
+
+#main-text
+{
+align-self: center;
+}
