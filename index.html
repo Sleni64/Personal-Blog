@@ -8,22 +8,6 @@
    
     <h2 id="typewriter"></h2>
 
-<script>
-  const text = "Welcome to my personal blog!";
-  let i = 0;
-  const speed = 100;
-
-  function typeWriter() {
-    if (i < text.length) {
-      document.getElementById("typewriter").innerHTML += text.charAt(i);
-      i++;
-      setTimeout(typeWriter, speed);
-    }
-  }
-
-  window.onload = typeWriter;
-</script>
-
 </head>
 
 <body>
@@ -104,6 +88,34 @@
         </nav>
     </main>
 
+
+     <div id="output"></div>
+
+  <script>
+    // Select the form and output area
+    const form = document.getElementById('myForm');
+    const input = document.getElementById('userInput');
+    const output = document.getElementById('output');
+
+    // Listen for when the form is submitted
+    form.addEventListener('submit', function(event) {
+      event.preventDefault(); // Prevent the page from reloading
+
+      // Get the text from the input field
+      const userText = input.value;
+
+      // Create a new paragraph element
+      const newParagraph = document.createElement('p');
+      newParagraph.textContent = userText;
+
+      // Add the new paragraph to the output area
+      output.appendChild(newParagraph);
+
+      // Clear the input field
+      input.value = '';
+    });
+  </script> 
+  
 </body>
 
 </html>
